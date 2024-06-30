@@ -2,10 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <title>Welcome</title>
 </head>
 <body>
-    
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link ">Home  </a>
+                        <div class="circle"></div>                           
+                      </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav_link ">About</a>
+                        <div class="circle"></div>    
+                    </li>  
+                    <li class="nav_list">
+                        <a href="#projects" class="nav_link ">Projects</a>
+                        <div class="circle"></div>    
+                    </li>  
+                    <li class="nav_list">
+                        <a href="#contact" class="nav_link ">Contact</a>
+                        <div class="circle"></div>    
+                    </li>  
+                </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                    
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p> Hello I,m</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Zephaniah Ollennu! I,m a web developer with 3+ years of experience  </p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn ">Hire Me</button>
+                        <button class="btn">Download CV<i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"> </div>
+                            <div class="icon"><i class="uil uil-instagram"></i></div>
+                            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                            <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                            <div class="icon"><i class="uil uil-github-alt"></i></div>
+                       
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt="" class="profile"/>
+                                       <h2>Web Developer</h2> 
+                                       <p>My name is Zephaniah Ollennu! I,m a web developer with 3+ years of experience</p>
+                                </figcaption>
+                            </figure>
+                            <button class="about-me-btn"> Hire Me</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
