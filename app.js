@@ -1,4 +1,4 @@
-function mymenuFunction(){
+function myMenuFunction(){
     var menuBth =  document.getElementById("myNavMenu")
 
     if(menuBth.className === "nav-menu"){
@@ -9,3 +9,9 @@ function mymenuFunction(){
     
 }
 
+const body = document.querySelector("body"),
+toggleSwitch = document.getElementById("toggle-switch");
+
+toggleSwitch.addEventListener("click", ()=> {
+    body.classList.toggle("dark");
+});

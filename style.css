@@ -176,7 +176,7 @@ nav
 
 }
 
-.moon-sun:is(#moon, #sun)
+.moon-sun :is(#moon, #sun)
 
 {
 
@@ -846,7 +846,7 @@ footer{
     }
     .image,.image img{
         width: 320px;
-        height: 320px4;
+        height: 320px;
     }
 }
 
@@ -854,7 +854,7 @@ footer{
     .nav-menu-btn{
         display: none;
     }
-    .nav-menu .responsive{
+    .nav-menu.responsive{
         left: 0;
     }
     .nav-menu{  
@@ -865,6 +865,7 @@ footer{
         justify-content: center;
         align-items: center;
         background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
         width: 300px;
         border-radius: 0px 30px 0px 30px;
         min-height: 450px;
