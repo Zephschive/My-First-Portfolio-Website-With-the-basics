@@ -250,7 +250,7 @@ body.dark #moon
 {
     font-family: sans-serif;
     color: #8749f2;
-    font-size: 8px;
+    font-size: 80px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -308,7 +308,7 @@ i
     display: flex;
     margin-top: 30px;
     margin-left: 5px;
-    gap: 32px;
+    gap: 31px;
 }
 
 .social_icons .icon 
@@ -331,26 +331,26 @@ i
     transform: transform(-50%, -50%);
     width: 40px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 50%;
     animation: iconSlide 4s infinite alternate;
 }
 
 @keyframes iconSlide {
     25%{
         border: 2px solid #e6d12e;
-        left:0px
+        left:26px
     }
     50%{
         border: 2px solid #c40101;
-        left:70px
+        left:95px
     }
     75%{
         border: 2px solid #8749f2;
-        left:145px
+        left:165px
     }
     100%{
         border: 2px solid #47ea15;
-        left:216px
+        left:236px
     }
     
 }
@@ -542,7 +542,7 @@ i
     width: 90%;
     border-radius: 6px;
     background: #8749f2;
-    animation: progress 0.4s ease-in-out forwards;
+    animation: progress 2.4s ease-in-out forwards;
     opacity: 0 ;
 }
 
